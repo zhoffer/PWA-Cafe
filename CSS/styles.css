@@ -36,7 +36,28 @@
     background-repeat: no-repeat;
 }
 
+.cover-image-LLJC {
+    background-image: url(../images/LLCJ-Hero-01.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
+a {
+    color: #3fbdab !important;
+}
+
+/* business page */
+.preview-images {
+    background-color: #e6e9ea;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.indent {
+    padding-left: 10px;
+}
 
 /* buttons */
 a:hover {
