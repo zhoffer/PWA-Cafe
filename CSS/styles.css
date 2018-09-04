@@ -28,18 +28,25 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 50px;
 }
 
 .cover-image-restaurant {
     background-image: url(../images/table_top.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+    margin-top: 4.25rem;
 }
 
 .cover-image-LLJC {
     background-image: url(../images/LLCJ-Hero-01.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+    margin-top: 4.25rem;
 }
 
 a {
@@ -80,6 +87,10 @@ a:hover {
 
 .feature-image {
     margin-bottom: -12px;
+}
+
+.ghost-text {
+    opacity: 0;
 }
 
 /* section styles */
