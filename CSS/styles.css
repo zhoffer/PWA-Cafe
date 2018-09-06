@@ -2,6 +2,9 @@
 /* CSS Document */
 
 /* overrides */
+body {
+    overflow: hidden;
+}
 .navbar-item img {
     max-height: 60px;
 }
@@ -235,3 +238,21 @@ footer {
   .carousel-num-3 .carousel-item {
     min-width: calc(100% / 3);
   }
+  .tablet {
+      display: none;
+  }
+  /* media query */
+
+  @media only screen and (max-width: 480px) {
+    .cellphone-image {
+        background-image: url(images/)
+    }
+}
+@media only screen and (max-width: 786px) {
+    .desktop {
+        display: none;
+    }
+    .tablet {
+        display: flex;
+    }
+}

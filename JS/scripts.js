@@ -99,5 +99,7 @@ window.onload = function(){
     setTimeout(toggleAnimate, 50);      
   };
   document.querySelector('.fa-chevron-left').addEventListener('click', onLeftClick, false);  
-  document.querySelector('.fa-chevron-right').addEventListener('click', onRightClick, false);  
+  document.querySelector('.fa-chevron-right').addEventListener('click', onRightClick, false); 
+  document.querySelector('.fcl-m').addEventListener('click', onLeftClick, false);  
+  document.querySelector('.fcr-m').addEventListener('click', onRightClick, false);  
 };
